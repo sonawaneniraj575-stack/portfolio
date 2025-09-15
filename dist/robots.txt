@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ns.scout.live/sitemap.xml
