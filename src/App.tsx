@@ -8,6 +8,7 @@ import { defaultDescription, defaultTitle } from "@/lib/seo";
 import { Suspense, lazy } from "react";
 import ogImage from "@/assets/og/og-placeholder.png";
 import ResumeSection from "./components/Resume";
+import Chatbot from "@/components/Chatbot"; // ← ADD THIS LINE
 
 const ProjectsSection = lazy(() => import("@/components/Projects/ProjectsSection"));
 
@@ -37,6 +38,9 @@ export default function App() {
           <ResumeSection />
         </main>
         <Footer />
+        
+        {/* ← ADD THIS CHATBOT COMPONENT */}
+        <Chatbot cohereToken={import.meta.env.VITE_COHERE_TOKEN} />
       </div>
     </HelmetProvider>
   );
