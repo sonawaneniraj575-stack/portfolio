@@ -2,13 +2,13 @@ import DividerShimmer from "@/components/ui/DividerShimmer";
 import ProjectCard from "./ProjectCard";
 import { siteContent } from "@/content/siteContent";
 import { Section } from "@/components/ui/Section";
+import guardianceImg from "../assets/Guardiancehomecare.png";
 
 const projectImages: Record<string, string> = {
-  "smart-health-dashboard":
+  "resume-analyzer-ai":
     "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/3/38/Link2.png",
-  "smart-task-manager":
-    "https://www.ionos.com/startupguide/fileadmin/StartupGuide/Schaubilder/EN-smart-5-criteria.png", // updated image
-  "ai-recommender":
+ "guardiance-home-care": "/images/Guardiancehomecare.png",
+  "luxury-ecommerce":
     "https://diggrowth.com/wp-content/uploads/2024/02/AI-Data-Visualization-Tool_-Improve-Your-Insights.png",
 };
 
