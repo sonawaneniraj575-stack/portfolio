@@ -45,7 +45,7 @@ const Chatbot: React.FC<ChatbotProps> = ({ cohereToken }) => {
       contact: "You can reach out to Niraj through the contact information in his portfolio. He's always interested in discussing new opportunities, collaborations, and innovative projects. Feel free to connect with him for freelance work or full-time opportunities!",
       about: "Niraj Sonawane is a passionate IT student and aspiring full-stack developer who loves creating innovative digital solutions. He combines technical expertise with creativity to build user-friendly applications that solve real-world problems.",
       hire: "Niraj is available for freelance projects and full-time opportunities! He specializes in React development, full-stack applications, and AI integration. Contact him through his portfolio to discuss your project requirements.",
-      default: "That's a great question! Niraj is passionate about technology and innovation. He's skilled in modern web development and always excited to work on challenging projects. Feel free to explore his portfolio to learn more about his work and achievements, or ask me about specific aspects of his expertise!"
+      default: "hello how can i help you"
     };
 
     const lowerMessage = userMessage.toLowerCase();
